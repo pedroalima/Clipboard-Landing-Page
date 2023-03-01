@@ -1,0 +1,17 @@
+@import url(/style/header.css);
+
+
+:root {
+    --fonte-principal: "Bai Jamjuree";
+    --cor-botao-primario: hsl(171, 66%, 44%);
+    --cor-botao-secundario: hsl(233, 100%, 69%);
+    --cor-titulo: hsl(210, 10%, 33%);
+    --cor-descricao: hsl(201, 11%, 66%);
+    --cor-texto-botao: #FFF;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 400;
+}

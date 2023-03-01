@@ -1,0 +1,40 @@
+header {
+    text-align: center;
+    padding: 30vw 0.8em;
+    background-image: url("/img/bg-header-mobile.png");
+    background-repeat: no-repeat;
+}
+
+.titulo {
+    color: var(--cor-titulo);
+    font-size: 30px;
+    font-weight: 600;
+    padding: 2em 0.5em 0.5em 0.5em;
+    line-height: 37px;
+}
+
+.descricao {
+    color: var(--cor-descricao);
+    line-height: 27px;
+}
+
+.caixa__botao {
+    margin-top: 2em;
+}
+
+.botao__primario {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 1em 5em;
+    background: var(--cor-botao-primario);
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--cor-texto-botao);
+    box-shadow: 1px 4px hsl(171, 65%, 36%);
+}
+
+.botao__secundario {
+    background: var(--cor-botao-secundario);
+    box-shadow: 1px 4px hsl(233, 67%, 60%);
+}
