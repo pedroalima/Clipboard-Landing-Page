@@ -1,11 +1,11 @@
-header {
+.container__principal {
     text-align: center;
     padding: 30vw 0.8em;
     background-image: url("/img/bg-header-mobile.png");
     background-repeat: no-repeat;
 }
 
-.titulo {
+.titulo__header {
     color: var(--cor-titulo);
     font-size: 30px;
     font-weight: 600;
@@ -13,7 +13,7 @@ header {
     line-height: 37px;
 }
 
-.descricao {
+.descricao__header {
     color: var(--cor-descricao);
     line-height: 27px;
 }

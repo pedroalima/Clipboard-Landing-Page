@@ -1,0 +1,25 @@
+.funcionalidades {
+    background-image: none;
+    padding-top: 2em;
+}
+
+.container {
+    padding-bottom: 4em;
+}
+
+.titulo {
+    color: var(--cor-titulo);
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 37px;
+    padding-bottom: 0.5em;
+}
+
+.descricao {
+    color: var(--cor-descricao);
+    line-height: 27px;
+}
+
+.imagem__funcionalidades {
+    width: 80vw;
+}
