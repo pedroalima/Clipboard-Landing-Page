@@ -22,7 +22,7 @@ Os usuários devem ser capazes de:
 
 ### Screenshot
 
-![](./screenshot.png)
+<img src="screenshot.png" width="200">
 
 ## Minha caminhada
 
