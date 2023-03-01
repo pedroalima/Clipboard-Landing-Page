@@ -1,6 +1,6 @@
 @import url("/style/header.css");
 @import url("/style/funcionalidades.css");
-
+@import url("/style/conectividade.css");
 
 :root {
     --fonte-principal: "Bai Jamjuree";

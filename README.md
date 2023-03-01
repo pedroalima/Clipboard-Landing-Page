@@ -30,8 +30,7 @@ Os usuários devem ser capazes de:
 
 - Mobile-first
 - Semântica HTML5
-- CSS Flexbox
-- CSS Grid
+- CSS Reaproveitável, limpo e flexível
 
 
 ### O que aprendi
