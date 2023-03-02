@@ -1,6 +1,9 @@
 .container__principal {
     text-align: center;
-    padding: 30vw 0.8em;
+    padding: 30vw 0.8em 6em 0.8em;
+}
+
+.cabeçalho {
     background-image: url("/img/bg-header-mobile.png");
     background-repeat: no-repeat;
 }
