@@ -3,6 +3,7 @@
 @import url("/style/conectividade.css");
 @import url("/style/ferramentas.css");
 @import url("/style/colaboradores.css");
+@import url("/style/download.css");
 
 :root {
     --fonte-principal: "Bai Jamjuree";
