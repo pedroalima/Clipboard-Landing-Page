@@ -4,6 +4,7 @@
 @import url("/style/ferramentas.css");
 @import url("/style/colaboradores.css");
 @import url("/style/download.css");
+@import url("/style/footer.css");
 
 :root {
     --fonte-principal: "Bai Jamjuree";
@@ -12,6 +13,8 @@
     --cor-titulo: hsl(210, 10%, 33%);
     --cor-descricao: hsl(201, 11%, 66%);
     --cor-texto-botao: #FFF;
+    --cor-fundo-footer: hsl(210, 22%, 96%);
+    --cor-texto-footer: hsl(203, 7%, 54%);
 }
 
 body {
