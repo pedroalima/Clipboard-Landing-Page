@@ -35,7 +35,7 @@ Os usuários devem ser capazes de:
 
 ### O que aprendi
 
-Durante a elaboração do header, na criação dos botões, houve um pequeno desafio, o sombreamento. A documentação de box-shadow da MDN foi crucial para o aprendizado dessa propriedade.
+Durante a elaboração do header, na criação dos botões, houve um pequeno desafio, o sombreamento. Pude observar que existiam dois estilos de sombra, não sabia dessa funcionalidade. A documentação de box-shadow da MDN foi crucial para o aprendizado.
 
 Trechos de destaque:
 
@@ -45,19 +45,15 @@ Trechos de destaque:
 
 ```css
 .botao__primario {
-    display: inline-block;
-    background: var(--cor-botao-primario);
-    border-radius: 25px;
-    text-decoration: none;
-    font-weight: 600;
-    color: var(--cor-texto-botao);
-    box-shadow: 1px 4px hsl(171, 65%, 36%);
+    box-shadow: 
+        1px 4px hsl(171, 65%, 36%),
+        0px 5px 25px hsl(169, 57%, 72%);
 }
 ```
 
 ### Recursos
 
-- [box-shadow](https://developer.mozilla.org/pt-BR/docs/Web/CSS/box-shadow) - Este é um site relevante para quem deseja aprender.
+- [Box Shadow CSS Generator](https://cssgenerator.org/box-shadow-css-generator.html) - Este é um site relevante para quem deseja aprender, aqui podemos simular diversos cenários de sombra.
 
 ## Autor
 
