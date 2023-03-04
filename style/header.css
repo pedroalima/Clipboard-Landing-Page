@@ -9,10 +9,6 @@ body {
     padding: 3em 0.8em 5em 0.8em;
 }
 
-.cabeçalho {
-    
-}
-
 .titulo__header {
     color: var(--cor-titulo);
     font-size: 30px;
