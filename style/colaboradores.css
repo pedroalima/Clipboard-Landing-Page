@@ -6,3 +6,11 @@
 .container__colaboradores {
     margin-bottom: 4em;
 }
+
+@media screen and (min-width: 1440px) {
+    .colaboradores {
+        margin: 0 5vw;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

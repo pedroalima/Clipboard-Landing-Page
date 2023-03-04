@@ -22,3 +22,67 @@
 .imagens {
     width: 80vw;
 }
+
+@media screen and (min-width: 1440px) {
+    .titulo {
+            font-size: 37px;
+    }
+    
+    .descricao {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .imagens {
+        width: 50vw;
+    }
+
+     .container__funcionalidades-primeiro{
+        margin: 2vw auto 7vw auto;
+        width: 55vw;
+     }
+
+    .container__funcionalidades {
+        margin: 2vw 0;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 50% auto;
+        grid-template-rows: 25% 25% 25%;
+        column-gap: 10vw;
+        grid-template-areas: 
+        "computador primeiro"
+        "computador segundo"
+        "computador terceiro";
+    }
+
+    .computador {
+        grid-area: computador;
+    }
+
+    .primeiro {
+        grid-area: primeiro;
+    }
+
+    .segundo {
+        grid-area: segundo;
+    }
+
+    .terceiro {
+        grid-area: terceiro;
+    }
+
+    .ajuste {
+        text-align: left;
+        width: 70%;
+    }
+
+    .titulo__menor {
+        font-size: 27px;
+    }
+
+    .descricao__menor {
+        font-size: 18px;
+    }
+
+    
+}

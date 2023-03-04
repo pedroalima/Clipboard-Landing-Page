@@ -23,12 +23,13 @@ body {
 }
 
 .caixa__botao {
-    margin-top: 3.5em;
+    margin-top: 2em;
 }
 
 .botao__primario {
     display: inline-block;
     padding: 1em 5em;
+    margin-top: 1.5em;
     background: var(--cor-botao-primario);
     border-radius: 25px;
     text-decoration: none;
@@ -36,14 +37,14 @@ body {
     color: var(--cor-texto-botao);
     box-shadow: 
         1px 4px hsl(171, 65%, 36%),
-        0px 5px 25px hsl(169, 57%, 72%);
+        0px 10px 25px -5px hsl(169, 57%, 72%);
 }
 
 .botao__secundario {
     background: var(--cor-botao-secundario);
     box-shadow: 
         1px 4px hsl(233, 67%, 60%),
-        0px 5px 25px hsl(231, 62%, 74%);
+        0px 10px 25px -5px hsl(231, 62%, 74%);
 }
 
 @media screen and (min-width: 1440px) {
@@ -58,6 +59,7 @@ body {
     .descricao__header {
         margin: 0 25vw;
         font-size: 20px;
+        line-height: 32px;
     }
 
     .caixa__botao {
@@ -71,10 +73,10 @@ body {
     }
 
     .botao__primario {
-        box-shadow: 0px 7px 20px -5px hsl(169, 57%, 72%);
+        box-shadow: 0px 7px 20px -10px hsl(169, 57%, 72%);
     }
 
     .botao__secundario {
-        box-shadow: 0px 7px 20px -5px hsl(231, 62%, 74%);
+        box-shadow: 0px 7px 20px -10px hsl(231, 62%, 74%);
     }
 }

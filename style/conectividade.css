@@ -9,3 +9,10 @@
 .sombra {
     box-shadow: 0px 40px 35px #e7e7e7;
 }
+
+@media screen and (min-width: 1440px) {
+    .container__conectividade {
+        width: 55vw;
+        margin: 3vw auto;
+    }
+}
