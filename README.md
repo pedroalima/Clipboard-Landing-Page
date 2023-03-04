@@ -22,7 +22,8 @@ Os usuários devem ser capazes de:
 
 ### Screenshot
 
-<img src="screenshot.png" width="200">
+<img src="./img/screenshot.png" width="200" style="display: inline-block">
+<img src="./img/screenshot2.png" width="400" style="display: inline-block">
 
 ## Minha caminhada
 
