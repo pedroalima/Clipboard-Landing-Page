@@ -17,13 +17,15 @@
 
 Os usuários devem ser capazes de:
 
-- Vizualizar o layout ideal para o site, dependendo do tamanho da tela do dispositivo, mobile ou desktop
-- Vizualizar os estados de foco para todos os elementos interativos na página
+- Vizualizar o layout ideal para o site, dependendo do tamanho da tela do dispositivo, mobile(375px) ou desktop(1440px)
+- Vizualizar os estados de foco para todos os elementos interativos na página (exclusivo para desktop)
 
 ### Screenshot
 
-<img src="./img/screenshot.png" width="200" style="display: inline-block">
-<img src="./img/screenshot2.png" width="400" style="display: inline-block">
+<html>
+    <img src="./img/screenshot-mobile.png" width="200" style="display: inline-block">
+    <img src="./img/screenshot-desktop.png" width="600" style="display: inline-block">
+</html>
 
 ## Minha caminhada
 
@@ -36,7 +38,7 @@ Os usuários devem ser capazes de:
 
 ### O que aprendi
 
-Durante a elaboração do header, na criação dos botões, houve um pequeno desafio, o sombreamento. Pude observar que existiam dois estilos de sombra, não sabia dessa funcionalidade. A documentação de box-shadow da MDN foi crucial para o aprendizado.
+Durante a elaboração do header, na criação dos botões, houve um pequeno desafio, o sombreamento. Pude observar que existiam dois estilos de sombra, eu ainda não sabia dessa funcionalidade. A documentação de box-shadow da MDN foi crucial para o aprendizado.
 
 Trechos de destaque:
 
@@ -48,13 +50,15 @@ Trechos de destaque:
 .botao__primario {
     box-shadow: 
         1px 4px hsl(171, 65%, 36%),
-        0px 5px 25px hsl(169, 57%, 72%);
+        0px 10px 25px -5px hsl(169, 57%, 72%);
 }
 ```
 
 ### Recursos
 
-- [Box Shadow CSS Generator](https://cssgenerator.org/box-shadow-css-generator.html) - Este é um site relevante para quem deseja aprender, aqui podemos simular diversos cenários de sombra.
+- [Box-Shadow](https://developer.mozilla.org/pt-BR/docs/Web/CSS/box-shadow) - Este é um site relevante para quem deseja aprender a propriedade.
+
+- [Box Shadow CSS Generator](https://cssgenerator.org/box-shadow-css-generator.html) - Este é um site que podemos simular diversos cenários de sombra.
 
 ## Autor
 
